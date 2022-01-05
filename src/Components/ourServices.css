@@ -31,7 +31,7 @@
     background-size: cover;
     border-radius: 10px;
 
-
+    filter: grayscale(100%);
 }
 
 .service-title
@@ -41,7 +41,7 @@
 
     padding-top: 100px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.664);
+    
     border-radius: 10px;
     
 }
@@ -92,11 +92,10 @@
 
     display:  none;
     color: white;
-    background-color: rgba(0, 0, 0, 0.884);
+    background-color: #1157ad;
 
     
     border-radius: 0 0 10px 10px;
-
     
 }
 

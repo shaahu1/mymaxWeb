@@ -1,5 +1,6 @@
 import React from 'react'
 import { CusromerSay } from '../../Components/CusromerSay';
+import CustomerList from '../../Components/CustomerList';
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import OurServices from '../../Components/OurServices';
@@ -23,6 +24,7 @@ const Home = () => {
             </div>
             <OurServices/>
             <CusromerSay/>
+            <CustomerList/>
             <Footer/>
 
 
