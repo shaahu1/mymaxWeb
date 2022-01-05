@@ -1,0 +1,50 @@
+.topBar
+{
+    width: 100%;
+    height: 25px;
+    background-color: #195c8e;
+    padding-top: 0px;
+    padding-bottom: 8px;
+
+
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+    display: inline-block;
+
+}
+
+.mobileNo, .emailAddress
+{
+    float: left;
+    margin-left: 5%;
+    margin-top: 4px;
+}
+
+.social-network-button-container
+{
+    margin-top: 5px;
+    width: 30%;
+    float: right;
+
+}
+
+.social-button
+{
+    border: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    color: white;
+
+    margin-left: 10px;
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.icon
+{
+    width: 18px;
+    height: 18px;
+}

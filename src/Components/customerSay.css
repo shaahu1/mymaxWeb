@@ -1,0 +1,45 @@
+.customerSay-container
+{
+    width: 85%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    display: flex;
+}
+
+.csCard-container
+{
+    width: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 70px;
+
+    box-shadow: 0 0 30px -25px;
+    border-radius: 3px;
+}
+
+.cuatomerSayText
+{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+    line-height: 1.5;
+}
+
+.avatar
+{
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+
+    margin-top: -40px;
+    
+}

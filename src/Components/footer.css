@@ -1,0 +1,116 @@
+.footer-container
+{
+    width: 100%;
+    height: inherit;
+    
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+}
+
+.companyInfo-container
+{
+    width: 25%;
+    
+    margin-left: 8%;
+}
+
+.companyNameF
+{
+    font-size: 28px;
+    font-weight: 600;
+    float: left;
+}
+
+.hr
+{
+    width: 100%;
+    height: 0.5px;
+    background-color: #dfdfdf;
+}
+
+.companyInfo
+{
+    margin-top: 17px;
+    text-align: left;
+    line-height: 1.7;
+    color: #8888a7;
+}
+
+.pages-container
+{
+    margin-left: 5%;
+    width: 10%;
+}
+
+.contact-container
+{
+    margin-left: 5%;
+    width: 22%;
+}
+
+.footerTital
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+
+    color: #333333;
+}
+
+.pageList
+{
+    list-style: none;
+}
+
+.pageList li
+{
+    line-height: 2;
+    text-align: left;
+    color: #8888a7;
+
+    cursor:pointer;
+}
+
+.pageList li a
+{
+    text-decoration: unset;
+    color: #8888a7;
+}
+
+
+.footerLink
+{
+    text-decoration: none;
+    color: #8888a7;
+    
+    cursor:pointer;
+}
+.footerLink:hover, .pageList li a:hover
+{
+    letter-spacing: 1px;
+    color: #2566dd;
+}
+
+#pbText
+{
+    color: #8888a7;
+    font-size: 15px;
+}
+
+#pbValue
+{
+    color: #54a8f7;
+    font-weight: 600;
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.footerEnd
+{
+    width: 100%;
+    height: 12px;
+
+    background-image: linear-gradient(to right, #5a93fd, #2566dd, #4f8cff);
+}
