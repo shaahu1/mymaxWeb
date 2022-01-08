@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import logo from '../Img/logo.png';
 import './navbar.css';
 import {FaWarehouse, FaShoppingBag} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
+import {Link} from 'react-scroll'
 
 
 
@@ -35,10 +36,10 @@ function NavBar () {
                 <div id="navbar-link-container">
                     <ul>
                         <li> <Link to="/top" className={navbar ? 'link active' : 'link'} > Home </Link> </li>
-                        <li> <Link to="/top" className={navbar ? 'link active' : 'link'} > About </Link> </li>
-                        <li> <Link to="/top" className={navbar ? 'link active' : 'link'} > Services </Link> </li>
+                        <li> <Link to="" smooth={true} duration={1000} className={navbar ? 'link active' : 'link'} > About </Link> </li>
+                        <li> <Link to="ourServices-container1" smooth={true} duration={1000} className={navbar ? 'link active' : 'link'} >   Services  </Link> </li>
                         <li> <Link to="/top" className={navbar ? 'link active' : 'link'} > Gallery </Link> </li>
-                        <li> <Link to="/top" className={navbar ? 'link active' : 'link'} > Contact </Link> </li>
+                        <li> <Link to="footer-container" smooth={true} duration={1000} className={navbar ? 'link active' : 'link'} > Contact </Link> </li>
                     </ul>
 
                 </div>

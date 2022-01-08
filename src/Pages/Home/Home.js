@@ -9,10 +9,10 @@ import StartEffect from '../../Components/StartEffect';
 import TopBar from '../../Components/TopBar'
 import bc from '../../Img/POS-System.jpg';
 import './home.css'
+import {Link} from 'react-scroll'
 
 const Home = () => {
 
-    
 
     return (
         <div>

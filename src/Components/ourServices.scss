@@ -1,4 +1,9 @@
 
+#ourServices-container1
+{
+    width: 100%;
+}
+
 .ourServices-container
 {
     width: 85%;
@@ -7,7 +12,7 @@
     margin-right: auto;
 
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
 
     display: block;
     text-align: left;
@@ -32,7 +37,6 @@
     background-size: cover;
     border-radius: 10px;
 
-    filter: grayscale(70%);
 
     .service-title
     {
@@ -51,6 +55,7 @@
     display: none;
 }
 
+
 .service-info1
 {
     background-image: url('../Img/ser2.jpg');
@@ -63,6 +68,8 @@
 {
     background-image: url('../Img/ser2.jpg');
 }
+
+
 .service-info:hover
 {
     filter: none;
@@ -72,6 +79,8 @@
 {
     display: none;
 }
+
+
 
 .service-info:hover .service-info-data
 {
@@ -100,7 +109,7 @@
 
     border-radius: 10px;
     clip-path:ellipse(50% 45% at 0% 0%);
-    transition: clip-path .5s ease-in-out;
+    transition: clip-path .5s ease-in;
 
     h2
     {

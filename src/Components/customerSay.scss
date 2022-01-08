@@ -25,6 +25,16 @@
     &:hover
     {
         transform: scale(1.2);
+        .csCard-container
+        {
+            background-image: linear-gradient(to bottom right, #00bff9, #0080ef, #4f8cff);
+        }
+
+        .cuatomerSayText
+        {
+            color: white;
+            font-weight: 600;
+        }
     }
 }
 

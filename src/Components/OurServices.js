@@ -5,9 +5,10 @@ import ser1 from '../Img/b3.jpg'
 const OurServices = () => {
     return (
         
-        <div>
-            <h2> Our Services </h2>
-            <div className="ourServices-container">
+        <div id='ourServices-container1'>
+            <br/><br/><br/><br/>
+            <h2> We Provide </h2>
+            <div className="ourServices-container" >
                 
                 
                 <div className='service-container'>
