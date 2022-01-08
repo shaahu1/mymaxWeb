@@ -3,6 +3,7 @@ import { CusromerSay } from '../../Components/CusromerSay';
 import CustomerList from '../../Components/CustomerList';
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
+import OurProducts from '../../Components/OurProducts';
 import OurServices from '../../Components/OurServices';
 import StartEffect from '../../Components/StartEffect';
 import TopBar from '../../Components/TopBar'
@@ -23,6 +24,7 @@ const Home = () => {
                 <span id="main-description"> Point of Sales Software Solutions, <br/> Point of Sales Accessories, <br/>Computer and Computer Accessories, <br/> IT Solutions</span>
             </div>
             <OurServices/>
+            <OurProducts/>
             <CusromerSay/>
             <CustomerList/>
             <Footer/>

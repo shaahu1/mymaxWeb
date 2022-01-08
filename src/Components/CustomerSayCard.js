@@ -6,7 +6,7 @@ import {FaQuoteLeft} from 'react-icons/fa'
 const CustomerSayCard = () => {
     return (
         
-        <div style={{width: "100%", paddingTop: '20px', paddingBottom:'30px'}}>
+        <div className='csCard' style={{width: "100%", paddingTop: '20px', paddingBottom:'30px'}}>
             <div className="csCard-container">
                 <FaQuoteLeft style={{width: '30px', height: '30px', color:'#506585'}}/>
                 <br/>

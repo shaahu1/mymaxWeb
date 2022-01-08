@@ -15,6 +15,8 @@ export const CusromerSay = () => {
                 <CustomerSayCard/>
                 <CustomerSayCard/>
                 <CustomerSayCard/>
+                <CustomerSayCard/>
+                <CustomerSayCard/>
             </div>
             
         </div>

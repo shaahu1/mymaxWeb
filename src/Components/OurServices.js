@@ -13,7 +13,7 @@ const OurServices = () => {
                 <div className='service-container'>
                     <br/>
                     <div className='service-info1 service-info'>
-                        <div className='service-title'> <h1> Software Solution </h1> </div>
+                        <div className='service-title'> <h2> Software Solution </h2> </div>
                             <div className='service-info-data fadeUp'>
                                 <h2> Software Solution </h2> <br/><br/>
                                 <span> Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. </span>
