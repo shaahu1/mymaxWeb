@@ -1,5 +1,5 @@
 import React from 'react'
-import './customerSay.css'
+import './customerSay.scss'
 import avtr from '../Img/55.jpg'
 import {FaQuoteLeft} from 'react-icons/fa'
 

@@ -14,7 +14,7 @@ const CustomerList = () => {
 
         <div>
         
-            <h2> Our Customerts </h2>
+            <h2> Our Valuable Customers </h2>
             <div className='slider'>
 
                 <div className='slider-track'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import './customerSay.css'
+import './customerSay.scss'
 import CustomerSayCard from './CustomerSayCard';
 
 export const CusromerSay = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './ourServices.css'
+import './ourServices.scss'
 import ser1 from '../Img/b3.jpg'
 
 const OurServices = () => {
@@ -15,7 +15,7 @@ const OurServices = () => {
                     <div className='service-info1 service-info'>
                         <div className='service-title'> <h1> Software Solution </h1> </div>
                             <div className='service-info-data fadeUp'>
-                                <h2> Software Solution </h2> <br/>
+                                <h2> Software Solution </h2> <br/><br/>
                                 <span> Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. </span>
                             </div>
                         
@@ -31,7 +31,7 @@ const OurServices = () => {
                         
                         <div className='service-title'> <h1> Hardware Solution </h1> </div>
                         <div className='service-info-data'>
-                            <h2> Hardware Solution </h2><br/>
+                            <h2> Hardware Solution </h2><br/> <br/>
                             <span> Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. </span>
                         
                         </div>
