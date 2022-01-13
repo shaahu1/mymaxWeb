@@ -1,0 +1,41 @@
+.Block1_container
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Block1_cardContainer
+{
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+    display: flex;
+}
+
+
+
+.Block1_card
+{
+    width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    .benifitIcon
+    {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 25px;
+    }
+
+    .block1_details
+    {
+        color: rgb(75, 75, 75);
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
+}

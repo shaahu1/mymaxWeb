@@ -10,6 +10,7 @@ import TopBar from '../../Components/TopBar'
 import bc from '../../Img/POS-System.jpg';
 import './home.css'
 import {Link} from 'react-scroll'
+import Block1 from '../../Components/Block1';
 
 const Home = () => {
 
@@ -23,6 +24,8 @@ const Home = () => {
 
                 <span id="main-description"> Point of Sales Software Solutions, <br/> Point of Sales Accessories, <br/>Computer and Computer Accessories, <br/> IT Solutions</span>
             </div>
+
+            <Block1 />
             <OurServices/>
             <OurProducts/>
             <CusromerSay/>
