@@ -36,7 +36,9 @@ function StartEffect (){
                 intro.style.top = "-100vh";
                 intro.style.opacity = "-0.01";
             },4000)
+
         })
+        
     })
 
     return (

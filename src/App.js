@@ -3,6 +3,7 @@ import React from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import TopBar from './Components/TopBar';
+import AboutUs from './Pages/About Us/AboutUs'
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
                     <Route path="/top" >
                         <TopBar />
                     </Route>
-                     <Route path="/" component={Home}></Route>
+                    <Route path="/aboutUs" component={AboutUs}></Route>
+                    <Route path="/" component={Home}></Route>
                 </Switch>
             </Router>
 

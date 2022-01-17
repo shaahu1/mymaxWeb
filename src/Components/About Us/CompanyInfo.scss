@@ -1,0 +1,67 @@
+.companyInfo_Container
+{
+    width: 100%;
+    height:  inherit;
+
+    display: flex;
+
+}
+
+
+.vision_contaner
+{
+    width: 50%;
+    height: 400px;
+    
+    background-image: url('../../Img/vision.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    //filter: grayscale(50%);
+
+    padding: 25px;
+
+
+    .vision_info
+    {
+        width: 60%;
+        background-color: #1155d4de;
+
+        
+        margin-right: auto;
+        padding: 25px;
+
+        margin-top: 150px;
+
+        color: white;
+    }
+
+
+}
+
+.mission_contaner
+{
+    width: 50%;
+    height: 400px;
+    
+    background-image: url('../../Img/mission.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    //filter: grayscale(50%);
+
+    padding: 25px;
+
+    .mission_info
+    {
+        width: 60%;
+        background-color: #1155d4de;
+
+        margin-left: auto;
+        padding: 25px;
+
+        margin-top: 150px;
+
+        color: white;
+    }
+}
