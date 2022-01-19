@@ -1,0 +1,40 @@
+.NumberBlock_Container
+{
+    width: 90%;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+
+    background-color: #1155d4bb;
+    //background-color: #1155d4;
+    border-radius: 4px;
+    box-shadow: 0 0 30px 0px ;
+
+    display: block;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    color: white;
+
+    .Numberbox_Container
+    {
+        display: flex;
+        margin-top: 40px;
+    }
+}
+
+.year_contaner, .customers_contaner
+{
+    width: 25%;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    h1
+    {
+        margin-bottom: 20px;
+    }
+}

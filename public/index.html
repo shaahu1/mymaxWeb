@@ -25,11 +25,27 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
+      <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
     <title>My Max Holdings</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./jquery.counterup.min.js"></script>
+    <script>
+      jQuery(document).ready(function( $ )
+      {
+        $('.counter').counterUp({
+          delay: 10,
+          time: 1000
+        })
+      });
+    </script>
+
   </body>
 </html>
