@@ -19,7 +19,7 @@ const Home = () => {
         <div>
 
             <div className ="back">
-                <StartEffect />
+               
                 <NavBar />
 
                 <span id="main-description"> Point of Sales Software Solutions, <br/> Point of Sales Accessories, <br/>Computer and Computer Accessories, <br/> IT Solutions</span>

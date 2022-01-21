@@ -4,10 +4,11 @@ import NumberBlock from '../../Components/About Us/NumberBlock';
 
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
-
+import { useEffect } from 'react';
 
 const AboutUs = () => {
 
+        
 
     return (
         <div>

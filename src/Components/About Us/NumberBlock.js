@@ -1,9 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './NumberBlock.scss'
+import CountUp from 'react-countup'
+import VisibilitySensor from 'react-visibility-sensor';
 
 
-const NumberBlock = () => {
+const NumberBlock = ({ className, ...rest }) => {
 
+    const [viewPortEntered, setViewPortEntered] = useState(false);
 
     return (
         <>
@@ -21,17 +24,68 @@ const NumberBlock = () => {
                     </div>
 
                     <div className='customers_contaner'>
-                        <h1 className='counter'> 5 </h1>
+                         <h1> <CountUp end={5} redraw={true}>
+                            {({ countUpRef }) => {
+                            return (
+                            <VisibilitySensor
+                                active={!viewPortEntered}
+                                onChange={isVisible => {
+                                if (isVisible) {
+                                    setViewPortEntered(true);
+                                }
+                                }}
+                                delayedCall
+                            >
+                                <h4 className={className} ref={countUpRef} />
+                            </VisibilitySensor>
+                            );
+                        }}
+                        </CountUp>
+                        </h1>
                         <h3> Products </h3>
                     </div>
 
                     <div className='customers_contaner'>
-                        <h1 className='counter'> 39 </h1>
+                         <h1> <CountUp end={36} redraw={true}>
+                            {({ countUpRef }) => {
+                            return (
+                            <VisibilitySensor
+                                active={!viewPortEntered}
+                                onChange={isVisible => {
+                                if (isVisible) {
+                                    setViewPortEntered(true);
+                                }
+                                }}
+                                delayedCall
+                            >
+                                <h4 className={className} ref={countUpRef} />
+                            </VisibilitySensor>
+                            );
+                        }}
+                        </CountUp>
+                        </h1>
                         <h3> Customers </h3>
                     </div>
 
                     <div className='customers_contaner'>
-                        <h1 className='counter'> 39 </h1>
+                         <h1> <CountUp end={39} redraw={true}>
+                            {({ countUpRef }) => {
+                            return (
+                            <VisibilitySensor
+                                active={!viewPortEntered}
+                                onChange={isVisible => {
+                                if (isVisible) {
+                                    setViewPortEntered(true);
+                                }
+                                }}
+                                delayedCall
+                            >
+                                <h4 className={className} ref={countUpRef} />
+                            </VisibilitySensor>
+                            );
+                        }}
+                        </CountUp>
+                        </h1>
                         <h3> Customers </h3>
                     </div>
 

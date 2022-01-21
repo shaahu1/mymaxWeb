@@ -14,8 +14,8 @@ function App() {
                     <Route path="/top" >
                         <TopBar />
                     </Route>
-                    <Route path="/aboutUs" component={AboutUs}></Route>
-                    <Route path="/" component={Home}></Route>
+                    <Route  path="/aboutUs" component={AboutUs}></Route>
+                    <Route exact path="/" component={Home}></Route>
                 </Switch>
             </Router>
 
