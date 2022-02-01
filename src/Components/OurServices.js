@@ -17,7 +17,7 @@ const OurServices = () => {
                         <div className='service-title'> <h2> Software Solution </h2> </div>
                             <div className='service-info-data fadeUp'>
                                 <h2> Software Solution </h2> <br/><br/>
-                                <span> Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. </span>
+                                <span> We are Providing Inventory Management System for Retail Whole sale shops, Point of Sale System, Distribution Management System, Finance, Payroll, and Restaurant &amp; Dining System. </span>
                             </div>
                         
                     
@@ -30,10 +30,26 @@ const OurServices = () => {
                     <br/>
                     <div className='service-info2 service-info'>
                         
-                        <div className='service-title'> <h1> Hardware Solution </h1> </div>
+                        <div className='service-title'> <h1> TECHNOLOGY & TOOLS </h1> </div>
                         <div className='service-info-data'>
-                            <h2> Hardware Solution </h2><br/> <br/>
-                            <span> Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. Inventory Management System, Point of Sale, Distribution Management System, Finance,Payroll, Restaurant / Hotel Managemnt System. </span>
+                            <h2> TECHNOLOGY & TOOLS </h2><br/> <br/>
+                            <span> Software solutions are developed by using C# for a front-end and MS SQL server for a Back office Database. We offer Windows and web based customized solutions for every business needs. </span>
+                        
+                        </div>
+                        
+                    
+                    </div>
+
+                <br/>
+                <br/>
+
+                    <br/>
+                    <div className='service-info3 service-info'>
+                        
+                        <div className='service-title'> <h1> APP DEVELOPMENT </h1> </div>
+                        <div className='service-info-data'>
+                            <h2> APP DEVELOPMENT </h2><br/> <br/>
+                            <span> We are developing mobile Apps for android, Windows, our professional software engineers are using C#, ASP.net to provide with a personal touch to create more than just a Mobile Application. </span>
                         
                         </div>
                         
@@ -44,6 +60,19 @@ const OurServices = () => {
                 <br/>
 
                     
+
+                    <br/>
+                    <div className='service-info4 service-info'>
+                        
+                        <div className='service-title'> <h1> HARDWARE SERVICES </h1> </div>
+                        <div className='service-info-data'>
+                            <h2> HARDWARE SERVICES </h2><br/> <br/>
+                            <span> Computer hardware servicing refer to doing repairs and maintenance on the physical components of computer and its peripherals, including fans, hard drives, keyboard and printers. </span>
+                        
+                        </div>
+                        
+                    
+                    </div>
                     
                 </div>
                 

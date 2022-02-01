@@ -5,6 +5,7 @@ import NumberBlock from '../../Components/About Us/NumberBlock';
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import { useEffect } from 'react';
+import './aboutUs.scss'
 
 const AboutUs = () => {
 
@@ -12,8 +13,10 @@ const AboutUs = () => {
 
     return (
         <div>
-
-            <NavBar />
+            <div className='aboutUsTop'>
+                
+                <NavBar />
+            </div>
             <br/>
             <br/>
             <br/>
