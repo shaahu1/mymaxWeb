@@ -1,3 +1,38 @@
+#myMax_text
+{
+    font-size: 55px;
+    background-image: linear-gradient(to right, white, #0059ff, #2566dd, #4f8cff, white);
+    color: blanchedalmond;
+    padding: 2px 50px 2px 50px;
+}
+
+.companyInfo_text
+{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    p
+    {
+        font-size:20px;
+    }
+    .logo_companyInfo
+    {
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-right: 50px;
+    }
+    .collecction1
+    {
+        width: 400px;
+        float: right;
+        margin-right: 50px;
+        margin: 0 0 50px 50px;
+    }
+    
+}
+
 .companyInfo_Container
 {
     width: 100%;
@@ -8,7 +43,6 @@
     margin-bottom: 150px;
 
 }
-
 
 .vision_contaner
 {
@@ -26,16 +60,16 @@
 
     .vision_info
     {
-        width: 60%;
+        width: 80%;
         background-color: #1155d4de;
 
-        
         margin-right: auto;
         padding: 25px;
 
         margin-top: 150px;
 
         color: white;
+        font-size: 20px;
     }
 
 
@@ -56,7 +90,7 @@
 
     .mission_info
     {
-        width: 60%;
+        width: 80%;
         background-color: #1155d4de;
 
         margin-left: auto;
@@ -65,5 +99,6 @@
         margin-top: 150px;
 
         color: white;
+        font-size: 20px;
     }
 }

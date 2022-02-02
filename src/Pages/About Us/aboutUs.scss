@@ -1,6 +1,21 @@
 .aboutUsTop
 {
     width: 100%;
-    height: 70px;
-    background-color: lightslategrey;
+    height: 650px;
+    background-image: url('../../Img/aboutUs1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#aboutUs_text
+{
+    margin-top:300px;
+    font-size: 70px;
+    font-weight: 900;
+    float: right;
+    color: #ffffff;
+    text-shadow: 2px 2px 20px #000000;
+
+    margin-right: 20%;
+    letter-spacing: 20px;
 }
