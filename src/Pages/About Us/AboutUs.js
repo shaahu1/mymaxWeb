@@ -6,9 +6,12 @@ import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
 import { useEffect } from 'react';
 import './aboutUs.scss'
+import OurTeam from '../../Components/About Us/OurTeam';
+import ScrollToTop from '../../Components/ScrollToTop';
 
 const AboutUs = () => {
 
+    
     /*   const handleNavigation = (e) => {
         const window = e.currentTarget;
         if (500 > window.scrollY && 200 < window.scrollY) {
@@ -29,6 +32,7 @@ const AboutUs = () => {
 
     return (
         <div>
+            <ScrollToTop/>
             <div className='aboutUsTop'>
                 <NavBar />
                 <span id='aboutUs_text'> ABOUT US</span>
@@ -40,6 +44,7 @@ const AboutUs = () => {
             <br/>
             <CompanyInfo/>
             <NumberBlock/>
+            <OurTeam/>
             <Footer/>
 
         </div>

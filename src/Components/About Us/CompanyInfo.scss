@@ -15,11 +15,12 @@
     p
     {
         font-size:20px;
+        text-align: justify;
     }
     .logo_companyInfo
     {
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
         float: left;
         margin-right: 50px;
     }
@@ -39,9 +40,11 @@
     height:  inherit;
 
     display: flex;
+    background-color: #000000;
 
-    margin-bottom: 150px;
-
+    margin-bottom: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .vision_contaner

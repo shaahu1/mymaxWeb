@@ -11,13 +11,14 @@ import bc from '../../Img/POS-System.jpg';
 import './home.css'
 import {Link} from 'react-scroll'
 import Block1 from '../../Components/Block1';
+import ScrollToTop from '../../Components/ScrollToTop';
 
 const Home = () => {
 
 
     return (
         <div>
-
+            <ScrollToTop />
             <div className ="back">
                
                 <NavBar />
