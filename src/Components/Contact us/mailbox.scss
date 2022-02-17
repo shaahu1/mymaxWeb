@@ -1,0 +1,84 @@
+.mailbox_container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+
+    width: 70%;
+    height: initial;
+    display: block;
+    
+
+    .mailboxTopRow
+    {
+
+        .mailbox_left
+        {
+            width: 50%;
+            height: auto;
+            float: left;
+            text-align: left;
+
+            padding: 3%;
+        }
+
+        .mailbox_right
+        {
+            width: 50%;
+            height: auto;
+            float: right;
+            text-align: left;
+            
+            padding: 3%;
+        }
+
+        input 
+        {
+            width: 100%;
+            border: none;
+            border-bottom: 1px solid #0760c5;
+            outline: none;
+
+            margin-top: 10px;
+        }
+    }
+
+    .mailboxBottomRow
+    {
+        padding: 3%;
+
+        text-align: left;
+
+        textarea
+        {
+            width: 100%;
+            border: 1px solid #0760c5;
+            outline: none;
+
+            margin-top: 10px;
+        }
+
+        .buttonSend
+        {
+            width: 150px;
+            height: 40px;
+
+            border: none;
+            color: white;
+            font-weight: 700;
+            background-color: #0760c5;
+            border-radius: 3px;
+            letter-spacing: 4px;
+            cursor:pointer;
+        }
+
+        .buttonSend:hover
+        {
+            border: 3px solid #0760c5;
+            background-color: white;
+            color: #0760c5;
+        }
+    }
+
+ 
+}

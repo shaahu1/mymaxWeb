@@ -52,6 +52,7 @@
 
 .footerTital
 {
+    padding-top: 15px;
     font-size: 18px;
     font-weight: bold;
     text-align: left;
@@ -64,16 +65,27 @@
     list-style: none;
 }
 
-.pageList li
+.iconFooter
 {
     line-height: 2;
     text-align: left;
     color: #8888a7;
+    padding-left: 15px;
 
     cursor:pointer;
 }
 
-.pageList li a
+.contactFooter
+{
+
+    padding-left: 15px;
+    text-align: left;
+    color: #8888a7;
+
+    line-height: 30px;
+}
+
+.contactFooter a
 {
     text-decoration: unset;
     color: #8888a7;
@@ -87,9 +99,9 @@
     
     cursor:pointer;
 }
-.footerLink:hover, .pageList li a:hover
+.footerLink:hover, .contactFooter:hover, .contactFooter a:hover
 {
-    letter-spacing: 1px;
+    font-weight: 800;
     color: #2566dd;
 }
 

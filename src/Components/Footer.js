@@ -25,10 +25,21 @@ const Footer = () => {
                 <ul className="pageList">
                     <li> <p className="footerTital"> Pages </p> </li>
                     <br/>
-                    <li> <Link to="/top" className="footerLink"> About </Link> </li>
-                    <li> <Link to="/top" className="footerLink"> Services </Link> </li>
-                    <li> <Link to="/top" className="footerLink"> Gallery </Link> </li>
-                    <li> <Link to="/top" className="footerLink"> Contact </Link> </li>
+
+                    <table>
+                        <tr>
+                            <td className='contactFooter'> <Link to="/aboutUs" className="footerLink"> About </Link></td>
+                        </tr>
+                        <tr>
+                            <td className='contactFooter'> <Link to="/top" className="footerLink"> Services </Link></td>
+                        </tr>
+                        <tr>
+                            <td className='contactFooter'> <Link to="/top" className="footerLink"> Gallery </Link></td>
+                        </tr>
+                        <tr>
+                            <td className='contactFooter'> <Link to="/contactUs" className="footerLink"> Contact </Link></td>
+                        </tr>
+                    </table>
                     
                 </ul>
             </div>
@@ -36,10 +47,23 @@ const Footer = () => {
             <div className="contact-container">
                 <ul className="pageList">
                     <li> <p className="footerTital"> Contact </p> </li>
+
                     <br/>
-                    <li> <FaPhone/> &nbsp; <a href="tel:0714333933"> 071 43 33 933 </a> </li>
-                    <li> <FaEnvelope/> &nbsp; <a href="mailto:mymaxholdings@gmail.com"> mymaxholdings@gmail.com </a> </li>
-                    <li> <FaBuilding/> &nbsp; <a href=""> No. 244/2, Dabahena Road, <br/> &nbsp; &nbsp; &nbsp;&nbsp; Maharagama. </a> </li>
+
+                    <table> 
+                        <tr>
+                            <td className='iconFooter'> <FaPhone/> </td>
+                            <td className='contactFooter'> <a href="tel:0714333933"> 071 43 33 933 </a> </td>
+                        </tr>
+                        <tr>
+                            <td className='iconFooter'> <FaEnvelope/> </td>
+                            <td className='contactFooter'> <a href="mailto:mymaxholdings@gmail.com"> mymaxholdings@gmail.com </a> </td>
+                        </tr>
+                        <tr>
+                            <td className='iconFooter'> <FaBuilding/> </td>
+                            <td className='contactFooter'> No. 244/2, Dabahena Road, <br/> Maharagama. </td>
+                        </tr>
+                    </table>
                     
                 </ul>
             </div>
