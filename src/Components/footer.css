@@ -4,7 +4,7 @@
     height: inherit;
     
     padding-top: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 30px;
     display: flex;
 
 }
@@ -12,8 +12,13 @@
 .companyInfo-container
 {
     width: 25%;
-    
-    margin-left: 8%;
+    margin-left: 5%;
+}
+
+.pageListAndDetail_container
+{
+    width: 67%;
+    display: flex;
 }
 
 .companyNameF
@@ -39,15 +44,15 @@
 }
 
 .pages-container
-{
-    margin-left: 5%;
-    width: 10%;
+{ 
+    margin-left: 10%;
+    width: 15%;  /*  25% */
 }
 
 .contact-container
 {
     margin-left: 5%;
-    width: 22%;
+    width: 35%; /* 40% */
 }
 
 .footerTital
@@ -67,10 +72,10 @@
 
 .iconFooter
 {
-    line-height: 2;
+    line-height: 0px;
     text-align: left;
     color: #8888a7;
-    padding-left: 15px;
+    padding-right: 10px;
 
     cursor:pointer;
 }
@@ -78,11 +83,11 @@
 .contactFooter
 {
 
-    padding-left: 15px;
+    padding-left: 0px;
     text-align: left;
     color: #8888a7;
 
-    line-height: 30px;
+    line-height: 45px;
 }
 
 .contactFooter a
@@ -102,7 +107,7 @@
 .footerLink:hover, .contactFooter:hover, .contactFooter a:hover
 {
     font-weight: 800;
-    color: #2566dd;
+    color: #54a8f7;
 }
 
 #pbText
@@ -120,10 +125,142 @@
     cursor: pointer;
 }
 
+.openTime_Container
+{
+    margin-left: 3%;
+    width: 28%;
+    color: #8888a7;
+}
+
+.openTime_Container ul li
+{
+    margin-left: 5px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+
+.socialMedia_Container
+{
+    display: flex;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.socialMedia_Container a
+{
+    margin-left: auto;
+    margin-right: auto;
+    color: unset;
+}
+
+.socialMediaIcon:hover
+{
+    color: #4f8cff;
+}
+
 .footerEnd
 {
     width: 100%;
     height: 12px;
 
     background-image: linear-gradient(to right, #5a93fd, #2566dd, #4f8cff);
+}
+
+
+
+@media only screen and (max-width: 1035px) 
+{
+    .footer-container
+    {
+        display: block;
+    }
+
+    .companyInfo-container
+    {
+        width: 84%;
+        margin-right: 8%;
+    }
+
+    .companyInfo
+    {
+        text-align: justify;
+    }
+
+    .pageListAndDetail_container
+    {
+        margin-left: 5%;
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    .pages-container 
+    {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .contact-container
+    {
+        margin-top: 30px;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .openTime_Container
+    {
+        margin-top: 30px;
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media only screen and (max-width: 750px) 
+{
+    .pageListAndDetail_container
+    {
+        display: block;
+    }
+
+    .pages-container 
+    {
+        
+        margin-top: 30px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .openTime_Container
+    {
+        margin-top: 30px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .openTime_Container ul li
+    {
+        line-height: 40px;
+    }
+
+    .openTime_Container ul li , .footerTital, .contactFooter, .iconFooter
+    {
+        text-align: center;
+    }
+
+    .iconFooter
+    {
+        display: none;
+    }
 }

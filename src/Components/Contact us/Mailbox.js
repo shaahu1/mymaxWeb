@@ -15,8 +15,6 @@ const Mailbox = () => {
         user_id: 'user_hELCpT0dQpQDH7DoOQRso'
     };
 
-
-
     function sentMail(e) 
     {
         e.preventDefault();
