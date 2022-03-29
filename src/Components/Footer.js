@@ -50,20 +50,10 @@ const Footer = () => {
 
                             <br/>
 
-                            <table> 
-                                <tr>
-                                    <td className='iconFooter'> <FaPhone/> </td>
-                                    <td className='contactFooter'> <a href="tel:0714333933"> 071 43 33 933 </a> </td>
-                                </tr>
-                                <tr>
-                                    <td className='iconFooter'> <FaEnvelope/> </td>
-                                    <td className='contactFooter'> <a href="mailto:mymaxholdings@gmail.com"> mymaxholdings@gmail.com </a> </td>
-                                </tr>
-                                <tr>
-                                    <td className='iconFooter'> <FaBuilding/> </td>
-                                    <td className='contactFooter'> No. 244/2, Dabahena Road, <br/> Maharagama. </td>
-                                </tr>
-                            </table>
+                            <li className='contactFooter'> <FaPhone/> <a href="tel:0714333933">&nbsp;&nbsp; 071 43 33 933 </a></li>
+                            <li className='contactFooter'> <FaEnvelope/> <a href="mailto:mymaxholdings@gmail.com">&nbsp;&nbsp; mymaxholdings@gmail.com </a></li>
+                            <li className='contactFooter'> <FaBuilding/> <a>&nbsp;&nbsp;No. 244/2, Dabahena Road,<br/>Maharagama. </a></li>
+
 
                         </ul>
                     </div>
