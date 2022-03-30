@@ -105,3 +105,20 @@
         font-size: 20px;
     }
 }
+
+
+@media only screen and (max-width: 900px) 
+{
+    .companyInfo_Container
+    {
+        display: block;
+
+        .vision_contaner, .mission_contaner
+        {
+            width: 100%;
+        }
+    }
+
+    
+
+}

@@ -7,9 +7,6 @@ import {FaFacebookF, FaGooglePlus, FaInstagram, FaLinkedin, FaMailBulk} from 're
 
 const TeamCard = (props) => {
 
-    
-
-
     return (
         <>
           
@@ -20,13 +17,18 @@ const TeamCard = (props) => {
                 {props.image === "ranjula" && <img src={""} />}
                 {props.image === "asanka" && <img src={asanka} />}
                 {props.image === "kushan" && <img src={""} />}
+
                 <div className='memberSocialMedia'>
+
                     <a href={props.fbLink} target="_blanck"><FaFacebookF/></a>
                     <a href={props.InsterLink}> <FaInstagram/> </a>
                     <a href={props.linkedinLink}> <FaLinkedin/> </a>
                     <a href={props.gmailLink}> <FaGooglePlus/> </a>
+
                 </div>
+
             </div>
+            
             <h3 id='TeamMemberName'> {props.name} </h3>
             <h4 id='TeamMemberDesig'> {props.designation} </h4> 
            
