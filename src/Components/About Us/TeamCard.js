@@ -2,7 +2,7 @@ import React from 'react'
 import './ourTeam.scss'
 
 import asanka from '../../Img/m1.jpg'
-import {FaFacebookF, FaGooglePlus, FaInstagram, FaLinkedin, FaMailBulk} from 'react-icons/fa'
+import {FaFacebookF, FaGooglePlus, FaInstagram, FaLinkedin} from 'react-icons/fa'
 
 
 const TeamCard = (props) => {
@@ -28,7 +28,7 @@ const TeamCard = (props) => {
                 </div>
 
             </div>
-            
+
             <h3 id='TeamMemberName'> {props.name} </h3>
             <h4 id='TeamMemberDesig'> {props.designation} </h4> 
            

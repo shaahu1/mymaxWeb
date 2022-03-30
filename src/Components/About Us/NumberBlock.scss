@@ -4,7 +4,8 @@
     height: inherit;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     background-image: linear-gradient(to bottom right, #00bff9, #0080ef, #4f8cff);
     //background-color: #1155d4;
@@ -44,6 +45,8 @@
 {
     .NumberBlock_Container
     {
+        
+
         .Numberbox_Container
         {
             display: block;
@@ -51,7 +54,6 @@
 
         .year_contaner, .customers_contaner
         {
-            width: 100%;
             margin-top: 30px;
         }
 

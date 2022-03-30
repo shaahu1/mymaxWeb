@@ -32,6 +32,7 @@
         margin: 0 0 50px 50px;
     }
     
+    
 }
 
 .companyInfo_Container
@@ -58,13 +59,13 @@
 
     //filter: grayscale(50%);
 
-    padding: 25px;
+    //padding: 25px;
 
 
     .vision_info
     {
         width: 80%;
-        background-color: #1155d4de;
+        background-color: #1157adde;
 
         margin-right: auto;
         padding: 25px;
@@ -89,12 +90,12 @@
 
     //filter: grayscale(50%);
 
-    padding: 25px;
+    //padding: 25px;
 
     .mission_info
     {
         width: 80%;
-        background-color: #1155d4de;
+        background-color: #1157adde;
 
         margin-left: auto;
         padding: 25px;
@@ -116,6 +117,16 @@
         .vision_contaner, .mission_contaner
         {
             width: 100%;
+            .vision_info
+            {
+                    
+                margin-top: 0px;
+            }
+            .mission_info
+            {
+                    
+                margin-top: 20px;
+            }
         }
     }
 

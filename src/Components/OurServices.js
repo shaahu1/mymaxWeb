@@ -1,6 +1,6 @@
 import React from 'react'
 import './ourServices.scss'
-import ser1 from '../Img/b3.jpg'
+//import ser1 from '../Img/b3.jpg'
 
 const OurServices = () => {
     return (

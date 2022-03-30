@@ -2,7 +2,7 @@ import React from 'react'
 
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
-import { useEffect } from 'react';
+//import { useEffect } from 'react';
 import './contactUs.scss'
 import ScrollToTop from '../../Components/ScrollToTop';
 import Mailbox from '../../Components/Contact us/Mailbox';

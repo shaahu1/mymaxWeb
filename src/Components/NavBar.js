@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../Img/logo.png';
 import './navbar.css';
-import {FaWarehouse, FaShoppingBag} from 'react-icons/fa';
+import {FaWarehouse} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 

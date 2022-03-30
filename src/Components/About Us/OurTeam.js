@@ -1,7 +1,6 @@
 import React from 'react'
 import './ourTeam.scss'
 import TeamCard from './TeamCard';
-import m1 from '../../Img/m1.jpg'
 
 
 const OurTeam = () => {

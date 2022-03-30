@@ -9,10 +9,10 @@ const TopBar = () => {
 		    <span className="emailAddress"><FaEnvelope className="icon"/> &nbsp; mymaxholdings@gmail.com </span> 
 
             <div className="social-network-button-container">
-                <a href="http://www.facebook.com/mymaxholdings" target="_blank" className="social-button"> <FaFacebookF className="icon"/> </a>
-                <a href="http://www.facebook.com/hasalaheshan" target="_blank" className="social-button"> <FaInstagram className="icon"/> </a>
-                <a href="http://www.facebook.com/hasalaheshan" target="_blank" className="social-button"> <FaTwitter className="icon"/> </a>
-                <a href="http://www.facebook.com/hasalaheshan" target="_blank" className="social-button"> <FaLinkedinIn className="icon"/> </a>
+                <a href="http://www.facebook.com/mymaxholdings" target= '_blank' className="social-button"> <FaFacebookF className="icon"/> </a>
+                <a href="http://www.facebook.com/hasalaheshan" target= '_blank' className="social-button"> <FaInstagram className="icon"/> </a>
+                <a href="http://www.facebook.com/hasalaheshan" target= '_blank' className="social-button"> <FaTwitter className="icon"/> </a>
+                <a href="http://www.facebook.com/hasalaheshan" target= '_blank' className="social-button"> <FaLinkedinIn className="icon"/> </a>
             </div>
             
 

@@ -4,7 +4,6 @@ import NumberBlock from '../../Components/About Us/NumberBlock';
 
 import Footer from '../../Components/Footer';
 import NavBar from '../../Components/NavBar';
-import { useEffect } from 'react';
 import './aboutUs.scss'
 import OurTeam from '../../Components/About Us/OurTeam';
 import ScrollToTop from '../../Components/ScrollToTop';
