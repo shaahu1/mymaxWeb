@@ -52,7 +52,7 @@ const Footer = () => {
 
                             <li className='contactFooter'> <FaPhone/> <a href="tel:0714333933">&nbsp;&nbsp; 071 43 33 933 </a></li>
                             <li className='contactFooter'> <FaEnvelope/> <a href="mailto:mymaxholdings@gmail.com">&nbsp;&nbsp; mymaxholdings@gmail.com </a></li>
-                            <li className='contactFooter'> <FaBuilding/> <a>&nbsp;&nbsp;No. 244/2, Dabahena Road,<br/>Maharagama. </a></li>
+                            <li className='contactFooter'> <FaBuilding/> <a href=''>&nbsp;&nbsp;No. 244/2, Dabahena Road,<br/>Maharagama. </a></li>
 
 {/*
                             <table className='contactTable'> 

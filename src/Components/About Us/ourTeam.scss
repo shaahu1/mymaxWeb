@@ -116,12 +116,14 @@
 
     .TeamCard_container
     {
-        width: 200px;
+        width: 80%;
 
         #memberImg_container
         {
             height: 200px;
-
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
             
             .memberSocialMedia
             {

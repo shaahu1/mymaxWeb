@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import TopBar from './Components/TopBar';
@@ -9,6 +9,7 @@ import { ReactNotifications } from 'react-notifications-component';
 
 
 function App() {
+
     return (
         <div className="App">
             <Router>
