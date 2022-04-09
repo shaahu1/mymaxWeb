@@ -27,7 +27,7 @@ const Home = () => {
         const getNewsInfo = async () =>
         {
             const data = await getDocs(newsCollectionref);
-            setNewsData(data.docs.map((doc) => ({...doc.data(), id: 1})));
+            setNewsData(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
 
         };
         
@@ -64,35 +64,21 @@ const Home = () => {
             <br/>
             <br/>
             <div className='newsBlog_block_container'>
-                
-                <News 
-                    NewsImg= {newsData.map((newsData1) => 
-                        {
-                            console.log(newsData1.image)
-                        return <div> {newsData1.image} </div>;
-                        })}
-                    NewsTagName = {newsData.map((newsData1) => 
-                        {
-                        return <div> {newsData1.tag} </div>;
-                        })}
-                    NewsDescription = "By 2030, every person in the planet will have a smartphone"
-                    NewsDate = {newsData.map((newsData1) => 
-                        {
-                        return <div> {newsData1.date} </div>;
-                        })}
-                    />
-                <News 
-                    NewsImg="https://assets.website-files.com/6123836e9fe0df3f7d56d0df/612505080ea15b4ecb0255ae_exp-blog-08.jpg"
-                    NewsTagName = "SUPER MARKET"
-                    NewsDescription = "Will VR revolutionize the way kids learn at school ?"
-                    NewsDate = "August 1, 2018"
-                    />
-                <News 
-                    NewsImg="https://assets.website-files.com/6123836e9fe0df3f7d56d0df/612505080ea15b4ecb0255ae_exp-blog-08.jpg"
-                    NewsTagName = "SUPER MARKET"
-                    NewsDescription = "How robots are helping farmers in improving produce quality ?"
-                    NewsDate = "August 1, 2018"
-                    />
+                {newsData.map((newsData1) => 
+                {
+                    console.log(newsData1.image)
+                    return <div> 
+               
+                        <News 
+                            NewsImg = {newsData1.image}
+                            NewsTagName = {newsData1.tag}
+                            NewsDescription = {newsData1.description}
+                            NewsDate = {newsData1.date}
+                        />
+
+                </div>;
+
+                })}
 
             </div>
             
