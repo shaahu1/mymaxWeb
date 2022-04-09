@@ -8,7 +8,7 @@ import OurServices from '../../Components/OurServices';
 //import StartEffect from '../../Components/StartEffect';
 //import TopBar from '../../Components/TopBar'
 //import bc from '../../Img/POS-System.jpg';
-import './home.css'
+import './home.scss'
 //import {Link} from 'react-scroll'
 import Block1 from '../../Components/Block1';
 import ScrollToTop from '../../Components/ScrollToTop';
@@ -58,28 +58,32 @@ const Home = () => {
             <br/>
 
            
-
-            <h2> News & Events </h2> 
-            <br/>
-            <br/>
-            <br/>
             <div className='newsBlog_block_container'>
-                {newsData.map((newsData1) => 
-                {
-                    console.log(newsData1.image)
-                    return <div> 
-               
-                        <News 
-                            NewsImg = {newsData1.image}
-                            NewsTagName = {newsData1.tag}
-                            NewsDescription = {newsData1.description}
-                            NewsDate = {newsData1.date}
-                        />
+                <br/>
+                <br/>
+                <br/>
+                <div className='newsBlog_header'> News & Events </div> 
+                <br/>
+                <br/>
+                <br/>
+                <div className='newsBlog_container'>
+                    {newsData.map((newsData1) => 
+                    {
+                        console.log(newsData1.image)
+                        return <div> 
+                
+                            <News 
+                                NewsImg = {newsData1.image}
+                                NewsTagName = {newsData1.tag}
+                                NewsDescription = {newsData1.description}
+                                NewsDate = {newsData1.date}
+                            />
 
-                </div>;
+                    </div>;
 
-                })}
+                    })}
 
+                </div>
             </div>
             
             <Footer/>
