@@ -76,7 +76,7 @@ const Footer = () => {
                     <div className='openTime_Container'>
 
                         <ul className="pageList">
-                            <span> <p className="footerTital"> Business Hours </p> </span>
+                            <li> <p className="footerTital"> Business Hours </p> </li>
                             <br/>
                             <li className='date1'> Mon: 9:00 AM - 6:00 PM </li>
                             <li id='date2'> Tue: 9:00 AM - 6:00 PM </li>

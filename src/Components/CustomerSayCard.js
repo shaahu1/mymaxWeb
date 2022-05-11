@@ -3,10 +3,12 @@ import './customerSay.scss'
 import avtr from '../Img/55.jpg'
 import {FaQuoteLeft} from 'react-icons/fa'
 
+//style={{width: "100%", paddingTop: '20px', paddingBottom:'30px'}}
+
 const CustomerSayCard = () => {
     return (
         
-        <div className='csCard' style={{width: "100%", paddingTop: '20px', paddingBottom:'30px'}}>
+        <div className='csCard' >  
             <div className="csCard-container">
                 <FaQuoteLeft style={{width: '30px', height: '30px', color:'#506585'}}/>
                 <br/>

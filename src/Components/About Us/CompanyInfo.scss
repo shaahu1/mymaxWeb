@@ -12,11 +12,13 @@
     width: 80%;
     margin-left: 10%;
     margin-bottom: 100px;
+
     p
     {
         font-size:20px;
         text-align: justify;
     }
+
     .logo_companyInfo
     {
         width: 150px;
@@ -24,6 +26,7 @@
         float: left;
         margin-right: 50px;
     }
+    
     .collecction1
     {
         width: 400px;
@@ -41,11 +44,11 @@
     height:  inherit;
 
     display: flex;
-    background-color: #000000;
+    background-color: #000;
 
     margin-bottom: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .vision_contaner
@@ -65,7 +68,7 @@
     .vision_info
     {
         width: 80%;
-        background-color: #1157adde;
+        background-color: #0591d6de;
 
         margin-right: auto;
         padding: 25px;
@@ -95,7 +98,7 @@
     .mission_info
     {
         width: 80%;
-        background-color: #1157adde;
+        background-color: #0591d6de;
 
         margin-left: auto;
         padding: 25px;

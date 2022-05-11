@@ -45,14 +45,14 @@
 
 .pages-container
 { 
-    margin-left: 10%;
+    margin-left: 4%;
     width: 15%;  /*  25% */
 }
 
 .contact-container
 {
-    margin-left: 5%;
-    width: 35%; /* 40% */
+    margin-left: 4%;
+    width: 38%; /* 40% */
 }
 
 .footerTital
@@ -127,8 +127,8 @@
 
 .openTime_Container
 {
-    margin-left: 3%;
-    width: 28%;
+    margin-left: 2%;
+    width: 33%;
     color: #8888a7;
 }
 
