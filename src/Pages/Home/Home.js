@@ -22,23 +22,34 @@ const Home = () => {
     const [newsData, setNewsData] = useState([]);
     const newsCollectionref = collection(db, "newsInfo");
 
+    var tagList = [];
+    var imgList = [];
+    var desccriptionList = [];
+    var dateList = [];
+
     useEffect (() => 
     {
         const getNewsInfo = async () =>
         {
             const data = await getDocs(newsCollectionref);
             setNewsData(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
-
         };
-        
 
         getNewsInfo();
-        
+
         console.log(newsData);
 
     }, [] );
-    
 
+
+    newsData.forEach((item,index) =>
+    {
+        imgList[index] = item.image;
+        tagList[index] = item.tag;
+        desccriptionList[index] = item.description;
+        dateList[index] = item.date;
+    })
+        
     return (
         <div>
             <ScrollToTop />
@@ -67,9 +78,11 @@ const Home = () => {
                 <br/>
                 <br/>
                 <div className='newsBlog_container'>
+
+                
                     {newsData.map((newsData1) => 
                     {
-                        console.log(newsData1.image)
+                        
                         return <div> 
                 
                             <News 
@@ -82,6 +95,8 @@ const Home = () => {
                     </div>;
 
                     })}
+
+                    
 
                 </div>
             </div>

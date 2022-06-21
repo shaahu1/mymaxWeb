@@ -39,3 +39,19 @@
     }
 
 }
+
+
+
+@media only screen and (max-width: 1035px)
+{
+    .Block1_cardContainer
+    {
+        display: block;
+    }
+
+    .Block1_card
+    {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}

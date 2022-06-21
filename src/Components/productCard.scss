@@ -1,0 +1,97 @@
+.productCard_block
+{
+    position: relative;
+    overflow: hidden;
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 #d6d7d8;
+
+    .productImg_container
+    {
+        width: 100%;
+        margin-left: auto;
+        margin-bottom: 25px;
+
+        .productImg
+        {
+            width: 90%;
+            margin: auto;
+        }
+    }
+
+    .productName{
+        font-family: Metropolis, sans-serif;
+        color: #42a7f7;
+        font-size: 17px;
+        line-height: 30px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .productDescription{
+        margin-bottom: 0px;
+        font-family: Hind, sans-serif;
+        font-size: 17px;
+        line-height: 30px;
+        font-weight: 400;
+
+        span{
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+        }
+    }
+
+    .productPrice{
+        font-family: Metropolis, sans-serif;
+        color: #313233;
+        font-size: 20px;
+        line-height: 38px;
+        font-weight: 600;
+    }
+
+    .productBtn{
+
+        display: flex;
+        max-width: 135px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+        -webkit-box-pack: center;
+
+        padding: 9px 15px;
+        background-color: #3898EC;
+        border-radius: 32px;
+        line-height: inherit;
+        text-decoration: none;
+        cursor: pointer;font-family: Metropolis,
+        sans-serif;
+
+        a{
+            position: static;
+            z-index: 0;
+            width: 100%;
+            color: white;
+            font-size: 11px;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing: 1px;
+            line-height: inherit;
+            text-decoration: none;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1000px) 
+{
+    .productCard_block
+    {
+        width: 350px;
+        margin-bottom: 35px;
+    }
+}

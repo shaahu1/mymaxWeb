@@ -1,0 +1,54 @@
+.ourProduct_block
+{
+    width: 90%;
+    margin: auto;
+    max-width: 1160px;
+
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+    .ourProduct_tital
+    {
+        h2
+        {
+            font-family: Metropolis,
+            sans-serif;
+            color: #313233;
+            font-size: 33px;
+            line-height: 46px;
+            font-weight: 600;
+        }
+    }
+
+    .ourProduct_description
+    {
+        font-size: large;
+        color: #555555;
+
+        margin-top: 20px;
+        margin-bottom: 50px;
+
+    }
+
+    .productCard_container
+    {
+        width: 90%;
+        margin: auto;
+        height: inherit;
+
+        display: flex;
+    }
+
+}
+
+
+@media only screen and (max-width: 1000px) 
+{
+    .ourProduct_block
+    {
+        .productCard_container {
+            display: block;
+        }
+    }
+    
+}

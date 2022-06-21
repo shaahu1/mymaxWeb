@@ -6,6 +6,8 @@ const VisionMissionBlock = ()=>
     (
         <div className=''>
 
+
+
         </div>
     )
 }

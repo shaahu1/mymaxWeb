@@ -1,3 +1,12 @@
+.customerListTital
+{
+    font-family: Metropolis,
+    sans-serif;
+    color: #313233;
+    font-size: 33px;
+    line-height: 46px;
+    font-weight: 600;
+}
 
 
 .slider
@@ -25,8 +34,8 @@
 
 .slide
 {
-    height: 200px;
-    width: 205px;
+    height: 150px;
+    width: 150px;
     display: flex;
     align-items: center;
     padding: 15px;

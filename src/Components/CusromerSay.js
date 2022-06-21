@@ -8,7 +8,7 @@ export const CusromerSay = () => {
     
     return (
         <div>
-            <h2> What our customer say </h2>
+            <h2 className='customerSayTital'> What our customer say </h2>
             <br/>
             <div className="customerSay-container">
                 
