@@ -76,7 +76,6 @@ const Home = () => {
                 <div className='newsBlog_header'> News & Events </div> 
                 <br/>
                 <br/>
-                <br/>
                 <div className='newsBlog_container'>
 
                 
